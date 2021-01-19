@@ -11,7 +11,7 @@ API's function.
 #building the go project
 This link is very helpful: https://medium.com/the-andela-way/build-a-restful-json-api-with-golang-85a83420c9da
 Additionally if you have go installed 
-utilizing 'go build' and './go-rest-api' (as this is the directory name) will locate the main package and execute accordingly. 
+utilizing 'go build' and './go-rest-api' (as this is the name of the executable that go generates) will locate the main package and execute accordingly. 
 
 #debugging
 VSCode has a debugging functionality for Go. We can run the go script in the debugger and then interact with the API via another tool like postman this will allow us to hit the breakpoints. 
