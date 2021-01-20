@@ -29,4 +29,9 @@ Go Layer: At the go layer we have implemented error handling in order to ensure 
 Ruby Layer: The Ruby Layer checks to ensure that a movie was found if it is not it returns an error message
 This information is passed to the Go Layer which returns that as output to the end user. 
                            
-                           
+#Docker 
+If you want to just run this API in a container that is surfaced to an external API: 
+1. cd into the omdb_go dir 
+2. run 'docker image build ./ -t omdb_go'
+3. run 'docker container run -p 8080:8080 omdb_go'
+4. Now you will be able to interact in Postman the way I discussed before.                            
